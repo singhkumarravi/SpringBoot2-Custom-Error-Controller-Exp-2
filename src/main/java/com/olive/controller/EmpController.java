@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 //@Controller
 public class EmpController implements ErrorController{
 	
-
+   
+	
 	@RequestMapping("/error")
 	public @ResponseBody String handleProblem(HttpServletRequest req)
 	{
